@@ -1,0 +1,11 @@
+Package: ctmcSim
+Type: Package
+Title: simulate CTMC
+Version: 1.0
+Date: 2019-09-11
+Author: DD
+Maintainer: email <ddas.wisc@gmail.com>
+Description: simulate CTMC
+License: MIT
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp, RcppArmadillo
