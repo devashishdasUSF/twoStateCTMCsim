@@ -1,5 +1,4 @@
 \name{ctmcSim-package}
-\alias{ctmcSim-package}
 \alias{ctmcSim}
 \docType{package}
 \title{
