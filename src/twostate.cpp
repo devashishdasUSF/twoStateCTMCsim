@@ -9,7 +9,7 @@
 double q_12(double x, double a = 1., double b = 0., double c = 2.) {
 
 	double y;
-	y = a*(sin(-2*M_PI*(x-b)) + c);
+	y = a*(sin(-2*M_PI*(x-b))) + c;
 	y = (y >= 0.0)? y: 0.0;
 	return y;
 }
@@ -18,7 +18,7 @@ double q_12_integrated(double x, double a = 1., double b = 0., double c = 2.) {
   
   double y;
   
-  y = a*(cos(-2*M_PI*(x-b)))/(2*M_PI) + a*c*x;
+  y = a*(cos(-2*M_PI*(x-b)))/(2*M_PI) + c*x;
   y = y - a*cos(2*M_PI*b)/(2*M_PI);
   
   return y;
